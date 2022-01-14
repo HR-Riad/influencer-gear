@@ -8,16 +8,57 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-
+}
 /* 1st part design */
+#starting-title{
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 70px;
+
+}
+.First-part{
+    display: flex;
+}
+.first-part-left-side{
+    margin: 50px;
+}
+.main-camera{
+    width: 70%;
+}
+.button-design{
+    background-color: #E02C6D;
+    color: white;
+    text-decoration: none;
+    padding: 10px 24px;
+    border-radius: 40px;
+    font-size: 20px;
+    font-weight: 900;
+}
+.fas .fa-arrow-right{
+    padding-left: 10px;
+}
 
 /* products */
 .products{
     display: grid;
     grid-template-columns:repeat(3, 1fr);
     grid-row-gap: 30px;
+    box-shadow: 30px;
 }
 /* ratting-desing */
 .fa-star.filled{
     color: #FB8200;
+   
+}
+/* see-more-link */
+#see-more-link{
+    text-decoration: none;
+    background-color: #E02C6D;
+    color: white;
+}
+/* footer */
+footer{
+    background-color: #0A0826;
+    text-align: center;
+    color: white;
 }
