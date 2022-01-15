@@ -230,4 +230,24 @@ margin-right: 15px;
             margin: 0;
             padding: 0;
         }
+        .form-for-contuct{
+            margin-left:30px ;
+        }
+        }
+        /* iPad */
+
+@media only screen and (max-width:1080px){
+    .main-nav{
+        justify-content: center;
+        margin: 0;}
+        nav{
+            display: none;
+        }
+        .flex-display{
+            display: block;
+        }
+        .products{
+            grid-template-columns:repeat(2, 1fr);
+           
+        }
 }
