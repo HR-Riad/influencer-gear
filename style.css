@@ -227,7 +227,7 @@ input, textarea {
 
 /* Media Queries */
 /* Mobile-devices */
-@media only screen and (max-width:688px) {
+@media only screen and (min-width:375px) and (max-width:667px) {
     .main-nav {
         justify-content: center;
         margin: 0;
@@ -269,7 +269,7 @@ input, textarea {
 
 /* iPad */
 
-@media only screen and (max-width:1080px) {
+@media only screen and (min-width:810px) and (max-width:1080) {
     .main-nav {
         justify-content: center;
         margin: 0;
