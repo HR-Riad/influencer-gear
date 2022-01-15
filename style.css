@@ -46,7 +46,7 @@ main{
     line-height: 70px;
 
 }
-.First-part{
+.flex-display{
     display: flex;
 }
 .first-part-left-side{
@@ -54,6 +54,10 @@ main{
 }
 .main-camera{
     width: 70%;
+    transition: width 5s;
+}
+.main-camera:hover{
+    width:10%;
 }
 .button-design{
     background-color: #E02C6D;
@@ -100,18 +104,45 @@ main{
    
 }
 /* see-more-link */
-.see-more-link{
+.see-more-link a{
     text-decoration:none;
-    color: #E02C6D;
+    color: #E02C6D !important;
     margin-right: 65px;
     float: right;
 }
-/* footer */
-footer{
-    display: block;
+/* xtra-part */
+.img-contuct{
+    width: 70%;
+    border-radius:15px ;
 }
-.footer{
+label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    font-size: 20px;
+}
+
+input, textarea {
+    width: 50%;
+    padding: 20px;
+    margin-bottom: 4%;}
+
+/* footer */
+
+.footer-class{
     background-color: #0A0826;
     text-align: center; 
     color: white;
+    width: 100%!important;
+    height: 239px;
+    
+}
+.footer-main-title {
+   padding-top:50px;
+}
+.footer p {
+    margin-top: 10px;
+
+}
+.fab {
+margin-right: 15px;
 }
